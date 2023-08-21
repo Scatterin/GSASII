@@ -1,2 +1,2 @@
-# ScatterinGSASII
+# GSASII
 Scatterin version of GSASII
