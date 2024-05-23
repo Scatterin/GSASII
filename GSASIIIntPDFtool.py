@@ -37,7 +37,7 @@ import wx.lib.mixins.listctrl  as  listmix
 import wx.grid as wg
 import numpy as np
 import GSASIIpath
-GSASIIpath.SetBinaryPath(True)
+GSASIIpath.SetBinaryPath()
 GSASIIpath.SetVersionNumber("$Revision: 5446 $")
 import GSASIIIO as G2IO
 import GSASIIctrlGUI as G2G
