@@ -22,7 +22,9 @@ try:
     import wx.aui
     import wx.glcanvas
 except (ImportError, ValueError):
-    print('GSASIIplot: wx not imported')
+    # Scatterin - removed for lambda
+    # print('GSASIIplot: wx not imported')
+    pass
 try:
     import matplotlib as mpl
     if not mpl.get_backend():       #could be assigned by spyder debugger

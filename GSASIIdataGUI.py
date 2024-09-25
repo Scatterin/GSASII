@@ -484,7 +484,7 @@ def ShowVersions():
                         msg = f'Binaries installed from {binarydir} to {installLoc}\n'
                         print(msg)
                         GSASIIpath.BinaryPathFailed = False
-                        GSASIIpath.SetBinaryPath(True)
+                        GSASIIpath.SetBinaryPath()
                     except:
                         print('Download failed, sorry')
     if not GSASIIpath.TestSPG(GSASIIpath.binaryPath):

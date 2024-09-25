@@ -65,7 +65,7 @@ if __name__ == '__main__':
     else:
         application = wx.App(0) # create the GUI framework
     try:
-        GSASIIpath.SetBinaryPath(True)
+        GSASIIpath.SetBinaryPath()
     except:
         print('Unable to run with current installation, please reset or reinstall')
         # if GSASIIpath.HowIsG2Installed().startswith('git'):

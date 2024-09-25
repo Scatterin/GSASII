@@ -18,7 +18,9 @@ except ImportError:
 try:
     import requests
 except:
-    print('Python requests package not installed (required for web access')
+    # Scatterin - Removed this for lambda
+    # print('Python requests package not installed (required for web access')
+    pass
 
 # fix up path before using git. Needed when using conda without
 #   activate (happens on MacOS w/GSAS-II.app)
@@ -33,13 +35,17 @@ except ImportError as msg:
         print('The gitpython package is unable to locate a git installation.')
         print('See https://gsas-ii.readthedocs.io/en/latest/packages.html for more information.')
     elif 'No module' in msg.msg:
-        print('Python gitpython module not installed')
+        # Scatterin - Removed this for lambda
+        pass
+        # print('Python gitpython module not installed')
     else:
         print(f'gitpython failed to import, but why? Error:\n{msg}')
-    print('Note: git and gitpython are required for GSAS-II to self-update')
+    # Scatterin - Removed this for lambda
+    # print('Note: git and gitpython are required for GSAS-II to self-update')
 except Exception as msg:
     print(f'git import failed with unexpected error:\n{msg}')
-    print('Note: git and gitpython are required for GSAS-II to self-update')
+    # Scatterin - Removed this for lambda
+    # print('Note: git and gitpython are required for GSAS-II to self-update')
 
 # hard-coded github repo locations
 G2binURL = "https://api.github.com/repos/AdvancedPhotonSource/GSAS-II-buildtools"

@@ -5856,5 +5856,5 @@ if __name__ == '__main__':
     G2fil.G2Print ("OK")
     plotter.StartEventLoop()
     
-#    GSASIIpath.SetBinaryPath(True,False)
+#    GSASIIpath.SetBinaryPath(False, False)
 #    print('found',findfullrmc())

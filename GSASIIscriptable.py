@@ -43,7 +43,7 @@ import numpy as np
 import scipy as sp
 
 import GSASIIpath
-GSASIIpath.SetBinaryPath(True)  # for now, this is needed before some of these modules can be imported
+GSASIIpath.SetBinaryPath()  # for now, this is needed before some of these modules can be imported
 import GSASIIobj as G2obj
 import GSASIIpwd as G2pwd
 import GSASIIstrMain as G2strMain

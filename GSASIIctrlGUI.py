@@ -23,7 +23,9 @@ try:
     import matplotlib.figure as mplfig
 
 except ImportError:
-    print('ImportError for wx/mpl in GSASIIctrlGUI: ignore if docs build')
+    # Scatterin - removed for lambda
+    # print('ImportError for wx/mpl in GSASIIctrlGUI: ignore if docs build')
+    pass
         
 import time
 import glob
