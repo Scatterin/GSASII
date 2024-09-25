@@ -34,7 +34,8 @@ try:
 #    import mpl_toolkits.mplot3d.axes3d as mp3d
     from scipy.ndimage import map_coordinates
 except (ImportError, ValueError) as err:
-    print('GSASIIplot: matplotlib not imported')
+    # Scatterin - Commented out for lambda
+    # print('GSASIIplot: matplotlib not imported')
     if GSASIIpath.GetConfigValue('debug'): print('error msg:',err)
 
 Clip_on = GSASIIpath.GetConfigValue('Clip_on',True)
