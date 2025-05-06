@@ -1,11 +1,6 @@
 [project]
-name = "gsas2"
-version = "6.0.0"
-description = "GSAS-II crystallography software"
-readme = "README.md"
+name = "GSASII"
 requires-python = ">=3.13,<4.0"
-license = { file = "LICENSE" }
-authors = [{ name = "Argonne APS", email = "gsas2@aps.anl.gov" }]
 dependencies = [
   "numpy>=1.26",
   "scipy>=1.9",
@@ -19,4 +14,4 @@ build-backend = "setuptools.build_meta"
 packages = ["GSASII"]
 
 [project.entry-points.console_scripts]
-gsas2 = "GSASII.Main:main"
+GSASII = "GSASII.Main:main"
