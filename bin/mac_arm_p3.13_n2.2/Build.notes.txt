@@ -1,0 +1,58 @@
+Built from G2 version 97b949d cleanup access to git release files and note potential improvements
+python                    3.13.3          h81fe080_101_cp313    conda-forge
+numpy                     2.2.4           py313h41a2e72_0    conda-forge
+Using gfortran, info follows
+Using built-in specs.
+COLLECT_GCC=gfortran
+COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc@12/12.4.0/bin/../libexec/gcc/aarch64-apple-darwin23/12/lto-wrapper
+Target: aarch64-apple-darwin23
+Configured with: ../configure --prefix=/opt/homebrew/opt/gcc@12 --libdir=/opt/homebrew/opt/gcc@12/lib/gcc/12 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-12 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 12.4.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin23 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk --with-ld=/Library/Developer/CommandLineTools/usr/bin/ld-classic
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.4.0 (Homebrew GCC 12.4.0) 
+### Dependencies
+./tmp/outfiles/Build.notes.txt: is not an object file
+./tmp/outfiles/GSASIIversion.txt: is not an object file
+./tmp/outfiles/LATTIC:
+	@rpath/libgfortran.5.dylib (compatibility version 6.0.0, current version 6.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)
+./tmp/outfiles/convcell:
+	@rpath/libgfortran.5.dylib (compatibility version 6.0.0, current version 6.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)
+./tmp/outfiles/fmask.cpython-313-darwin.so:
+	sources/fmask.cpython-313-darwin.so (compatibility version 0.0.0, current version 0.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)
+./tmp/outfiles/histogram2d.cpython-313-darwin.so:
+	sources/histogram2d.cpython-313-darwin.so (compatibility version 0.0.0, current version 0.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)
+./tmp/outfiles/kvec_general.cpython-313-darwin.so:
+	sources/k_vec_cython/kvec_general.cpython-313-darwin.so (compatibility version 0.0.0, current version 0.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)
+./tmp/outfiles/libgfortran.5.dylib:
+	/opt/homebrew/opt/gcc@12/lib/gcc/12/libgfortran.5.dylib (compatibility version 6.0.0, current version 6.0.0)
+	@rpath/libquadmath.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+	@rpath/libgcc_s.1.1.dylib (compatibility version 1.0.0, current version 1.1.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.100.2)
+./tmp/outfiles/pack_f.cpython-313-darwin.so:
+	sources/pack_f.cpython-313-darwin.so (compatibility version 0.0.0, current version 0.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)
+./tmp/outfiles/pydiffax.cpython-313-darwin.so:
+	sources/pydiffax.cpython-313-darwin.so (compatibility version 0.0.0, current version 0.0.0)
+	@rpath/libgfortran.5.dylib (compatibility version 6.0.0, current version 6.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)
+./tmp/outfiles/pypowder.cpython-313-darwin.so:
+	sources/pypowder.cpython-313-darwin.so (compatibility version 0.0.0, current version 0.0.0)
+	@rpath/libgfortran.5.dylib (compatibility version 6.0.0, current version 6.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)
+./tmp/outfiles/pyspg.cpython-313-darwin.so:
+	sources/pyspg.cpython-313-darwin.so (compatibility version 0.0.0, current version 0.0.0)
+	@rpath/libgfortran.5.dylib (compatibility version 6.0.0, current version 6.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)
+./tmp/outfiles/pytexture.cpython-313-darwin.so:
+	sources/pytexture.cpython-313-darwin.so (compatibility version 0.0.0, current version 0.0.0)
+	@rpath/libgfortran.5.dylib (compatibility version 6.0.0, current version 6.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)
+./tmp/outfiles/unpack_cbf.cpython-313-darwin.so:
+	sources/unpack_cbf.cpython-313-darwin.so (compatibility version 0.0.0, current version 0.0.0)
+	@rpath/libgfortran.5.dylib (compatibility version 6.0.0, current version 6.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)

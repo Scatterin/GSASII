@@ -1,0 +1,4 @@
+v5.2.0
+5805
+commit 97b949dcde35c2729cd2b71c00687e814ba8a88b
+#created by /Users/runner/work/GSAS-II-buildtools/GSAS-II-buildtools/_gsas2/sources/tagbinaries.py on 2025-04-16 21:36:42.748783 from git
