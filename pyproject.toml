@@ -17,7 +17,6 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
 packages = ["GSASII"]
-package-dir = { "" = "GSASII" }
 
 [project.entry-points.console_scripts]
 gsas2 = "GSASII.Main:main"
