@@ -12,9 +12,12 @@ import glob
 #import pathlib
 import subprocess
 import datetime as dt
+import traceback
 try:
     import numpy as np
 except ImportError:
+    print(traceback.format_exc())
+    print("Scatterin")
     print("numpy import failed in GSASIIpath")
 
 # fix up path before using git. Needed when using conda without
