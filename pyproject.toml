@@ -17,9 +17,9 @@ include = ["GSASII", "GSASII.*"]
 
 [tool.setuptools.package-data]
 "GSASII" = [
-    "GSASII-bin/**",
-    "icons/**",
-    "inputs/**"
+  "GSASII-bin/**",
+  "icons/**",
+  "inputs/**"
 ]
 
 [project.entry-points.console_scripts]
