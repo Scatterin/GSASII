@@ -93,7 +93,8 @@ def _path_discovery(printInfo=False):
     if binpath not in sys.path:
         sys.path.insert(0, binpath)
     if printInfo:
-        print(f"GSAS-II binary directory: {binpath}")
+        if os.environ.get("AWS_EXECUTION_ENV") == None:
+            print(f"GSAS-II binary directory: {binpath}")
 
     # *** Thanks to work by Tom, imports and exports are now found directly
     # *** and the code below is no longer needed.

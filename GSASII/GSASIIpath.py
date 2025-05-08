@@ -1345,7 +1345,8 @@ def LoadConfig(printInfo=True):
                 if isinstance(config.__dict__[i],types.ModuleType): continue
                 configDict.update({i:str(config.__dict__[i])})
         except ImportError as err:
-            print("New install: start without a config.py file")
+            if os.environ.get("AWS_EXECUTION_ENV") == None:
+                print("New install: start without a config.py file")
             return
         except Exception as err:
             print("Error reading config.py file\n",err)
@@ -1358,7 +1359,8 @@ def LoadConfig(printInfo=True):
     configDict = {}
     cfgfile = os.path.expanduser(os.path.normpath('~/.GSASII/config.ini'))
     if not os.path.exists(cfgfile):
-        print(f'N.B. Configuration file {cfgfile} does not exist')
+        if os.environ.get("AWS_EXECUTION_ENV") == None:
+            print(f'N.B. Configuration file {cfgfile} does not exist')
         # patch 2/7/25: transform GSAS-II config.py contents to config.ini
         XferConfigIni()
     try:
@@ -1422,7 +1424,8 @@ def LoadConfig(printInfo=True):
         except:
             continue
     if printInfo:
-        print (f'{len(configDict)} values read from {cfgfile}')
+        if os.environ.get("AWS_EXECUTION_ENV") == None:
+            print (f'{len(configDict)} values read from {cfgfile}')
     # make sure this value is set
     configDict['Clip_on'] = configDict.get('Clip_on',True)
 
