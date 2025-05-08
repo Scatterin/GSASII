@@ -48,7 +48,7 @@ def sfloat(S):
             pass
     return 0.0
 
-G2printLevel = 'all'
+G2printLevel = 'warn'
 '''This defines the level of output from calls to :func:`GSASIIfiles.G2Print`,
 which should  be used in place of print() within GSASII where possible.
 Settings for this are 'all', 'warn', 'error' or 'none'. Best to change this
