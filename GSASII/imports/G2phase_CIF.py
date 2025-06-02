@@ -690,8 +690,11 @@ shift later as an alternative to the above.'''
                     print('\nCIF symops do not agree with GSAS-II, calling Bilbao "CIF to Standard Setting" web service.\n')
                     ans = True
                 if ans:
-                    from .. import SUBGROUPS
-                    SUBGROUPS.createStdSetting(filename,self)
+                    try:
+                        from .. import SUBGROUPS
+                        SUBGROUPS.createStdSetting(filename,self)
+                    except Exception as err:
+                        self.warnings += '\nError transforming CIF to standard setting: '+str(err)
         return returnstat
 
     def ISODISTORT_test(self,blk):
