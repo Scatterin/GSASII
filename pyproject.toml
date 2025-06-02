@@ -1,6 +1,6 @@
 [project]
 name = "GSASII"
-version = "v1.1.0"
+version = "v1.3.0"
 requires-python = ">=3.13,<4.0"
 dependencies = [
   "numpy>=1.26",
